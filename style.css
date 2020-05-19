@@ -1,0 +1,269 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.mainSection{
+    
+    height: 650px;
+    width: 1000px;
+    border: 1px solid #DADCE0;
+    border-radius: 10px;
+    margin-left: 270px;
+    margin-top: 30px;
+    
+}
+
+img{
+    margin-top: 40px;
+    
+}
+
+h1{
+   font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    
+}
+
+h3{
+   font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    
+}
+
+
+.firstName{
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #DADCE0;
+    padding-left: 10px;
+    
+}
+
+
+.lastName{
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #DADCE0;
+    margin-left: 20px;
+    padding-left: 10px;
+    
+}
+
+
+.contentWraper{
+    width: 65%;
+
+    height: 600px;
+    margin-left: 100px;
+    
+}
+
+
+.emailInput{
+    
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #DADCE0;
+    width: 33em;
+    padding-left: 10px;
+    margin-top: 25px;
+}
+
+.paraOne{
+    padding:15px 0 30px 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.paraTwo{
+    padding:10px 0 40px 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+
+
+
+.far{
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.rex{
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: #1A73E8;
+    font-weight: 500;
+}
+
+button{
+    height: 40px;
+    width: 100px;
+    background-color: #1A73E8;
+    border-radius: 4px;
+    border-style: none;
+    color: white;
+    margin-left: 300px;
+}
+
+.passInput{
+    width: 170px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #DADCE0;
+    
+    
+}
+
+
+
+.passR{
+    width: 170px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #DADCE0;
+    
+   
+    
+}
+
+.flexBox{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.contentWraper2{
+    position: absolute;
+    left: 900px;
+    top: 200px;
+}
+
+
+.footBar{
+    margin-left: 290px;
+   
+    
+}
+
+.mainDiv{
+    position: relative;
+    margin-bottom: 10px;
+    display: inline-block;
+    margin-right: 0px;
+    
+}
+
+.one{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    transition: 0.5s;
+}
+
+
+#fNamed:focus~.one,
+#fNamed:valid~.one{
+    top: -11px;
+    background-color: white;
+    
+}
+
+
+
+
+
+.two{
+    position: absolute;
+    top: 10px;
+    left: 30px;
+    transition: 0.5s;
+}
+
+
+#lName:focus~.two,
+#lName:valid~.two{
+    top: -11px;
+    background-color: white;
+
+    
+}
+
+
+
+
+.three{
+    position: relative;
+    top: -2px;
+    left: -445px;
+    transition: 0.5s;
+    
+}
+
+
+.emailInput:focus~.three,
+.emailInput:valid~.three  {
+    top: -22px;
+    background-color: white;
+
+}
+
+
+
+
+.four{
+    position: relative;
+    top: -2px;
+    left: -165px;
+    transition: 0.5s;
+    
+}
+
+
+.passInput:focus~.four,
+.passInput:valid~.four  {
+    top: -22px;
+    background-color: white;
+
+}
+
+
+.five{
+    position: relative;
+    top: -2px;
+    left: -165px;
+    transition: 0.5s;
+    
+}
+
+
+.passR:focus~.five,
+.passR:valid~.five  {
+    top: -21px;
+    background-color: white;
+
+}
+
+
+
+
+
+
+#mainDivChicken{
+    position: relative;
+    margin: -60px;
+    display: inline-block;
+    margin-left: 1px;
+}
+
